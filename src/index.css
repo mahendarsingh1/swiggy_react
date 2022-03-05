@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, sans-serif;
+  --food-list-button-color : green;
+  --food-list-button-hover-color : red;
+}
+
+
+#header{
+  width: 100vw;
+  height: 70px;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 244, 243);
+}
+
+#logo{
+  margin-right: 15px;
+  height: 50px;
+}
+#logo:hover{
+  transition: 0.2s;
+  scale: 1.1;
+}
+
+#location{
+  margin-left: 10px;
+  cursor: pointer;
+}
+#location>span{
+  opacity: 0.5;
+}
+#location>ins{
+  font-weight: 550;
+}
+#location>img{
+  height: 15px;
+}
+#location:hover>ins, .control_options:hover{
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.control_options>img{
+  height: 18px;
+}
+.control_options:hover>img{
+  filter:invert(16%) sepia(82%) saturate(7103%) hue-rotate(359deg) brightness(98%) contrast(113%);
+}
+.control_options{
+  padding: 10px;
+  margin: 20px;
+}
+#search{
+  margin-left: 20%;
+}
+#offers>span{
+  font-size: small;
+  color: orange;
+  position: relative;
+  bottom: 5px;
+}
+
+
+#breadcrumb{
+  background-color: #e8e9ed;
+  font-size: 80%;
+  padding: 3px;
+  padding-left: 15%;
+}
+#breadcrumb>span{
+  cursor: pointer;
+  opacity: 0.6;
+}
+#breadcrumb>span:hover{
+  opacity: 1;
+}
