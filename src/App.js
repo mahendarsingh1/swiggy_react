@@ -2,6 +2,7 @@ import Header from "./components/header/Header";
 import Breadcrumb from "./components/header/Breadcrumb";
 import SubHeader from "./components/subheader/SubHeader";
 import FilterSection from "./components/subheader/FilterSection";
+import FoodDescription from "./components/foodDesciption/FoodDescription";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Breadcrumb/>
       <SubHeader/>
       <FilterSection/>
+      <FoodDescription/>
     </>
   );
 }
