@@ -2,6 +2,8 @@ import React from "react";
 import EmptyCart from './EmptyCart'
 import FilledCart from "./FilledCart";
 
+import './styles/Cart.css'
+
 function Cart(props){
 
     let { cartData, handleQuantityUpdate } = props;

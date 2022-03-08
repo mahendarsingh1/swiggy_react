@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/CartItem.css'
 
 import img from '../../assests/images/symbol.svg'
 

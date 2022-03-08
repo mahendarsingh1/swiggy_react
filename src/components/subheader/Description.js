@@ -1,6 +1,7 @@
 import React from "react";
 import DescriptionBox from "./DescriptionBox";
 import DescriptionText from "./DescriptionText";
+import './styles/Description.css'
 
 import starIcon from '../../assests/images/star.svg'
 

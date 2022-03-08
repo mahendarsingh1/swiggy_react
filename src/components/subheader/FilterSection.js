@@ -1,5 +1,6 @@
 import React from "react";
 import FilterInput from "./FilterInput";
+import './styles/FilterSection.css'
 
 import searchIcon from '../../assests/images/search.svg';
 import favouriteIcon from '../../assests/images/favourite.svg';
