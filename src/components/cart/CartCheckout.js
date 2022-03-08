@@ -1,11 +1,17 @@
 import React from "react";
+import './styles/CartCheckout.css';
 
 function CartCheckout(props){
     
-    let { cartData, handleClearCart } = props;
+    let { cartData, handleClearCart, totalItems } = props;
 
     function clickHandler(){
-        localStorage.setItem('items', JSON.stringify(cartData));
+        let data = {
+            amount,
+            totalItems,
+            items:cartData
+        }
+        localStorage.setItem('items', JSON.stringify(data));
         alert('Data Added to Local Storage');
         handleClearCart();
     }

@@ -2,6 +2,7 @@ import React from "react";
 import ControlOption from "./controlOption";
 import Location from "./Location";
 import { icons } from "./Helper";
+import './styles/Header.css'
 
 function Header(){
     return (

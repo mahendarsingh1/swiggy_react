@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/Breadcrumb.css'
 
 function Breadcrumb(){
     return (

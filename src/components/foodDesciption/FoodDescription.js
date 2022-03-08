@@ -2,6 +2,7 @@ import React from "react";
 import Overview from "./Overview";
 import FoodList from './FoodList'
 import Cart from "../cart/Cart";
+import './styles/FoodDescription.css'
 
 function getItemById(data, id){
     return data.find((item)=>item.id===id)

@@ -21,7 +21,7 @@ function FilledCart(props){
             <h2>Cart</h2>
             <p>{totalItems} ITEMS</p>
             {cartItems}
-            <CartCheckout cartData={cartData} handleClearCart={props.handleClearCart} />
+            <CartCheckout cartData={cartData} totalItems={totalItems} handleClearCart={props.handleClearCart} />
         </>
     )
 }

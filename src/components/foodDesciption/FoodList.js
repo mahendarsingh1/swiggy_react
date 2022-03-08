@@ -1,5 +1,6 @@
 import React from "react";
 import FoodListSection from "./FoodListSection";
+import './styles/FoodList.css'
 
 
 function FoodList(props){

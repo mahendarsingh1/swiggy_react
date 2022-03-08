@@ -2,6 +2,7 @@ import React from "react";
 import Description from "./Description";
 import DiscountSection from './DiscountSection'
 import restaurantImg from '../../assests/images/restaurant.webp'
+import './styles/SubHeader.css'
 
 function SubHeader(){
     return (

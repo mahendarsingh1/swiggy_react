@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/Location.css'
 
 import dropDwnIcon from '../../assests/images/dropdown.svg'
 
