@@ -3,13 +3,20 @@ import FoodListItem from "./FoodListItem";
 
 function FoodListSection(props){
 
+    let { category, items, handleAddToCart } = props;
+
     return (
         <>
-            <h2 id={props.category}>{props.category}</h2>
-            {props.items && <p className="op-9">{props.items.length} ITEMS</p>}
-            {props.items.map(item => {
+            <h2 id={category}>{category}</h2>
+            <p className="op-9">{items.length} ITEMS</p>
+            {items.map(item => {
                 return (
-                    <FoodListItem key={item.id} img={props.icon} item={item} />
+                    <FoodListItem 
+                        key={item.id} 
+                        category={category} 
+                        item={item} 
+                        handleAddToCart={handleAddToCart} 
+                    />
                 );
             })}
         </>
