@@ -9,7 +9,7 @@ function FoodListSection(props){
             {props.items && <p className="op-9">{props.items.length} ITEMS</p>}
             {props.items.map(item => {
                 return (
-                    <FoodListItem key={item.id} img={props.icon} item={item} />
+                    <FoodListItem key={item.id} item={item} />
                 );
             })}
         </>
