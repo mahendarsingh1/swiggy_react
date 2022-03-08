@@ -277,3 +277,71 @@ input[type="checkbox"]{
 .veg{
   filter:  invert(23%) sepia(16%) saturate(3949%) hue-rotate(80deg) brightness(100%) contrast(101%);
 }
+
+
+
+#cart{
+  /* opacity: 0.5; */
+  width: 400px;
+  margin-left: 90px;
+  width: 16%;
+}
+#empty-cart-img{
+  margin-top: 50px;
+  height: 220px;
+}
+
+
+.cartItem{
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+.cartItem>div>img{
+  margin: 0.2rem;
+}
+
+.quantityControllers{
+  font-size: 0.8rem;
+  width: 50px;
+  border: 1px solid rgb(179, 175, 175);
+  padding: 0.3rem;
+  margin: 0 1rem;
+}
+
+.flex-space-around{
+  display: flex;
+  justify-content: space-around;
+}
+
+.quantityControllers>span{
+  font-size: 1.1rem;
+  color: green;
+}
+
+.quantityControllers>span:hover{
+  cursor: pointer;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+#totalAmount{
+  padding: 1.5rem 0;
+}
+#totalAmount>h4{
+  font-size: large;
+}
+
+#checkout-button{
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  background-color: #60b246;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.w-90{
+  width: 90%;
+}
